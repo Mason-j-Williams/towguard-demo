@@ -1,0 +1,10 @@
+export default function Home() {
+  return (
+    <main style={{ padding: '2rem', fontFamily: 'sans-serif' }}>
+      <h1>Welcome to TowGuard Demo Mode</h1>
+      <p>Scan the QR code on your flyer to test our consumer protection alert system.</p>
+      <p>If you’re seeing this page, the QR code and link are working.</p>
+      <p>After testing, please send your feedback to the TowGuard team.</p>
+    </main>
+  );
+}
